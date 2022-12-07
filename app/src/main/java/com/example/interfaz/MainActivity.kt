@@ -11,8 +11,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        card_cliente.setOnClickListener{
-            val intent = Intent(this,MainAct_Clientes::class.java)
+        supportActionBar!!.title="Principal"
+
+        card_usuarios.setOnClickListener{
+            val intent = Intent(this,MainAct_Usuarios::class.java)
             startActivity(intent);
         }
         card_proveedor.setOnClickListener{
@@ -23,16 +25,16 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this,MainActiproducto::class.java)
             startActivity(intent);
         }
-        card_editar.setOnClickListener {
-            val intent = Intent(this,MainActeditar::class.java)
+        card_categoria.setOnClickListener {
+            val intent = Intent(this,MainActcategoria::class.java)
             startActivity(intent);
         }
-        card_reporte.setOnClickListener {
-            val intent = Intent(this,MainActreporte::class.java)
+        card_entrada.setOnClickListener {
+            val intent = Intent(this,MainActentrada::class.java)
             startActivity(intent);
         }
-        card_editar.setOnClickListener {
-            val intent = Intent(this,MainActbuscar::class.java)
+        card_salida.setOnClickListener {
+            val intent = Intent(this,MainActsalida::class.java)
             startActivity(intent);
         }
 

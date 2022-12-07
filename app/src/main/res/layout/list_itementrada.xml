@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="5dp"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_margin="15dp"
+            android:padding="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/TitleIdetalle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:gravity="left"
+                android:text="Title"
+                android:textColor="@color/black"
+                android:textSize="19sp"
+                android:textStyle="bold">
+            </TextView>
+
+            <TextView
+                android:id="@+id/titlecantidadentrada"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:text="Title2"
+                android:textColor="#7A7A7A"
+                android:textSize="16sp"
+                android:textStyle="bold">
+            </TextView>
+
+            <TextView
+                android:id="@+id/TitleFingreso"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:text="Title3"
+                android:textColor="#7A7A7A"
+                android:textSize="16sp"
+                android:textStyle="bold">
+            </TextView>
+
+            <TextView
+                android:id="@+id/TitleFvencimiento"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:text="Title4"
+                android:textColor="#7A7A7A"
+                android:textSize="16sp"
+                android:textStyle="bold">
+            </TextView>
+
+            <TextView
+                android:id="@+id/TitleidProEntrada"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:text="Title5"
+                android:textColor="#7A7A7A"
+                android:textSize="16sp"
+                android:textStyle="bold">
+            </TextView>
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/menuentrada"
+            android:src="@drawable/ic_baseline_more_vert_24"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_width="60dp"
+            android:layout_height="40dp"/>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_background">
+
+    <TextView
+        android:id="@+id/colCategoria"
+        android:layout_width="265dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        />
+
+
+    <ImageButton
+        android:id="@+id/colEditar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="clickTablaEditar"
+        app:srcCompat="@android:drawable/ic_menu_edit" />
+
+    <ImageButton
+        android:id="@+id/colBorrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="clickTablaBorrar"
+        app:srcCompat="@android:drawable/ic_input_delete" />
+
+</TableRow>

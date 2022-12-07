@@ -1,24 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActiproducto">
+    tools:context=".MainActentrada">
 
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/recyclerviewProducto"
+            android:id="@+id/recyclerviewentrada"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
     </LinearLayout>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/addingBtn3"
+        android:id="@+id/addingBtn4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
@@ -30,4 +31,5 @@
         android:src="@drawable/ic_baseline_add"
         app:backgroundTint="#1CA2DF"
         app:tint="@color/white" />
+
 </RelativeLayout>

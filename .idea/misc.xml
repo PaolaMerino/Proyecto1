@@ -3,10 +3,22 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Alejandra/Desktop/Programacion IV/Proyecto1/app/src/main/res/layout/activity_main.xml" value="0.22" />
-        <entry key="..\:/Users/Alejandra/Desktop/Programacion IV/Proyecto1/app/src/main/res/layout/activity_main_act_clientes.xml" value="0.3333333333333333" />
-        <entry key="..\:/Users/Alejandra/Desktop/Programacion IV/Proyecto1/app/src/main/res/layout/activity_main_acteditar.xml" value="0.1796875" />
-        <entry key="..\:/Users/Alejandra/Desktop/Programacion IV/Proyecto1/app/src/main/res/layout/activity_main_actiproducto.xml" value="0.1796875" />
+        <entry key="..\:/Users/Alejandra/Desktop/Electronica y Electricidad/Proyecto1 arreglos/app/src/main/res/layout/activity_categoria_datos.xml" value="0.1796875" />
+        <entry key="..\:/Users/Alejandra/Desktop/Electronica y Electricidad/Proyecto1 arreglos/app/src/main/res/layout/activity_entrada_datos.xml" value="0.1796875" />
+        <entry key="..\:/Users/Alejandra/Desktop/Electronica y Electricidad/Proyecto1 arreglos/app/src/main/res/layout/activity_main.xml" value="0.1796875" />
+        <entry key="..\:/Users/Alejandra/Desktop/Electronica y Electricidad/Proyecto1 arreglos/app/src/main/res/layout/activity_main_act_usuarios.xml" value="0.1796875" />
+        <entry key="..\:/Users/Alejandra/Desktop/Electronica y Electricidad/Proyecto1 arreglos/app/src/main/res/layout/activity_main_actcategoria.xml" value="0.1796875" />
+        <entry key="..\:/Users/Alejandra/Desktop/Electronica y Electricidad/Proyecto1 arreglos/app/src/main/res/layout/activity_main_actentrada.xml" value="0.1796875" />
+        <entry key="..\:/Users/Alejandra/Desktop/Electronica y Electricidad/Proyecto1 arreglos/app/src/main/res/layout/activity_main_actiproducto.xml" value="0.1796875" />
+        <entry key="..\:/Users/Alejandra/Desktop/Electronica y Electricidad/Proyecto1 arreglos/app/src/main/res/layout/activity_main_actsalida.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Alejandra/Desktop/Electronica y Electricidad/Proyecto1 arreglos/app/src/main/res/layout/activity_productos_datos.xml" value="0.1796875" />
+        <entry key="..\:/Users/Alejandra/Desktop/Electronica y Electricidad/Proyecto1 arreglos/app/src/main/res/layout/activity_usuario_datos.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Alejandra/Desktop/Electronica y Electricidad/Proyecto1 arreglos/app/src/main/res/layout/list_itementrada.xml" value="0.1796875" />
+        <entry key="..\:/Users/Alejandra/Desktop/Electronica y Electricidad/Proyecto1 arreglos/app/src/main/res/layout/list_itemproducto.xml" value="0.1796875" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/ProyectoFinal/ProyectoFinal/app/src/main/res/layout/activity_categoria_datos.xml" value="0.25" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/ProyectoFinal/ProyectoFinal/app/src/main/res/layout/activity_login.xml" value="0.15833333333333333" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/ProyectoFinal/ProyectoFinal/app/src/main/res/layout/activity_main_act_usuarios.xml" value="0.15989583333333332" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/ProyectoFinal/ProyectoFinal/app/src/main/res/layout/activity_usuario_datos.xml" value="0.20416666666666666" />
       </map>
     </option>
   </component>

@@ -10,20 +10,18 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:layaout_weight="2">
+        android:layout_height="150dp">
 
         <TextView
-            android:layout_width="295dp"
-            android:layout_height="47dp"
+            android:layout_width="301dp"
+            android:layout_height="52dp"
             android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="67dp"
-            android:layout_marginTop="146dp"
-            android:layout_marginEnd="49dp"
-            android:layout_marginBottom="7dp"
+            android:layout_marginStart="64dp"
+            android:layout_marginTop="454dp"
+            android:layout_marginEnd="46dp"
+            android:layout_marginBottom="-10dp"
             android:text="¡HOLA, BIENVENIDO!"
             android:textColor="#fff"
             android:textSize="30sp"
@@ -33,33 +31,36 @@
 
         <ImageView
             android:id="@+id/imageView"
-            android:layout_width="205dp"
-            android:layout_height="115dp"
+            android:layout_width="121dp"
+            android:layout_height="112dp"
+            android:layout_alignParentStart="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginEnd="94dp"
-            android:layout_marginBottom="75dp"
+            android:layout_marginStart="148dp"
+            android:layout_marginEnd="140dp"
+            android:layout_marginBottom="38dp"
             app:srcCompat="@drawable/logo" />
 
     </RelativeLayout>
 
     <GridLayout
         android:layout_width="match_parent"
-        android:layout_height="528dp"
+        android:layout_height="491dp"
+        android:clipToPadding="false"
         android:columnCount="2"
-        android:layaout_weigth="3"
         android:padding="35dp"
         android:rowCount="2">
 
         <!--CLIENTES-->
         <androidx.cardview.widget.CardView
-            android:id="@+id/card_cliente"
+            android:id="@+id/card_usuarios"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_row="0"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:layout_margin="8dp"
+            app:cardBackgroundColor="@color/white"
             app:cardElevation="5dp">
 
             <RelativeLayout
@@ -67,8 +68,8 @@
                 android:layout_height="match_parent">
 
                 <ImageView
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
                     android:layout_centerInParent="true"
                     android:src="@drawable/clientes" />
 
@@ -78,7 +79,8 @@
                     android:layout_alignParentBottom="true"
                     android:layout_centerInParent="true"
                     android:layout_marginBottom="20dp"
-                    android:text="Clientes" />
+                    android:text="Usuarios"
+                    android:textColor="@color/black" />
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
 
@@ -91,6 +93,7 @@
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:layout_margin="8dp"
+            app:cardBackgroundColor="@color/white"
             app:cardElevation="5dp">
 
             <RelativeLayout
@@ -98,8 +101,8 @@
                 android:layout_height="match_parent">
 
                 <ImageView
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
                     android:layout_centerInParent="true"
                     android:src="@drawable/proveedor" />
 
@@ -109,7 +112,8 @@
                     android:layout_alignParentBottom="true"
                     android:layout_centerInParent="true"
                     android:layout_marginBottom="20dp"
-                    android:text="Proveedor" />
+                    android:text="Proveedor"
+                    android:textColor="@color/black" />
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
 
@@ -122,6 +126,7 @@
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:layout_margin="8dp"
+            app:cardBackgroundColor="@color/white"
             app:cardElevation="5dp">
 
             <RelativeLayout
@@ -130,8 +135,8 @@
                 android:layout_height="match_parent">
 
                 <ImageView
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
                     android:layout_centerInParent="true"
                     android:src="@drawable/producto" />
 
@@ -141,19 +146,21 @@
                     android:layout_alignParentBottom="true"
                     android:layout_centerInParent="true"
                     android:layout_marginBottom="20dp"
-                    android:text="Producto" />
+                    android:text="Producto"
+                    android:textColor="@color/black" />
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
 
-        <!--EDITAR-->
+        <!--CATEGORIA-->
         <androidx.cardview.widget.CardView
-            android:id="@+id/card_editar"
+            android:id="@+id/card_categoria"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_row="0"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:layout_margin="8dp"
+            app:cardBackgroundColor="@color/white"
             app:cardElevation="5dp">
 
             <RelativeLayout
@@ -161,10 +168,10 @@
                 android:layout_height="match_parent">
 
                 <ImageView
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
                     android:layout_centerInParent="true"
-                    android:src="@drawable/editar" />
+                    android:src="@drawable/categoria" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -172,19 +179,21 @@
                     android:layout_alignParentBottom="true"
                     android:layout_centerInParent="true"
                     android:layout_marginBottom="20dp"
-                    android:text="Editar" />
+                    android:text='Categoria'
+                    android:textColor="@color/black" />
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
 
-        <!--REPORTE-->
+        <!--ENTRADA-->
         <androidx.cardview.widget.CardView
-            android:id="@+id/card_reporte"
+            android:id="@+id/card_entrada"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_row="0"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:layout_margin="8dp"
+            app:cardBackgroundColor="@color/white"
             app:cardElevation="5dp">
 
             <RelativeLayout
@@ -192,10 +201,10 @@
                 android:layout_height="match_parent">
 
                 <ImageView
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
                     android:layout_centerInParent="true"
-                    android:src="@drawable/reporte" />
+                    android:src="@drawable/entrada" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -203,19 +212,21 @@
                     android:layout_alignParentBottom="true"
                     android:layout_centerInParent="true"
                     android:layout_marginBottom="20dp"
-                    android:text="Reporte" />
+                    android:text='Entrada'
+                    android:textColor="@color/black" />
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
 
-        <!--BUSCAR-->
+        <!--SALIDA-->
         <androidx.cardview.widget.CardView
-            android:id="@+id/card_buscar"
+            android:id="@+id/card_salida"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_row="0"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:layout_margin="8dp"
+            app:cardBackgroundColor="@color/white"
             app:cardElevation="5dp">
 
             <RelativeLayout
@@ -223,10 +234,10 @@
                 android:layout_height="match_parent">
 
                 <ImageView
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
                     android:layout_centerInParent="true"
-                    android:src="@drawable/buscar" />
+                    android:src="@drawable/informacion" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -234,7 +245,8 @@
                     android:layout_alignParentBottom="true"
                     android:layout_centerInParent="true"
                     android:layout_marginBottom="20dp"
-                    android:text="Buscar" />
+                    android:text="Acerca de"
+                    android:textColor="@color/black" />
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
     </GridLayout>

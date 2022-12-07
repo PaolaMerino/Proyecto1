@@ -6,4 +6,51 @@
     android:layout_height="match_parent"
     tools:context=".MainActproveedores">
 
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/addingBtn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="32dp"
+        android:contentDescription="TODO"
+        android:onClick="addsbtn"
+        android:src="@drawable/ic_baseline_add"
+        app:backgroundTint="#1CA2DF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.954"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tbproveedor"
+        app:layout_constraintVertical_bias="1.0"
+        app:tint="@color/white" />
+
+    <TableLayout
+        android:id="@+id/tbproveedor"
+        android:layout_width="343dp"
+        android:layout_height="335dp"
+        android:background="#E7E9EA"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.149">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </TableLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

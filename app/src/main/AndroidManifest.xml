@@ -3,42 +3,69 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.interfaz">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:icon="@drawable/logo"
+        android:label="Inventario"
+        android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
         android:theme="@style/Theme.Interfaz"
+        android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
-            android:name=".MainActbuscar"
+            android:name=".Usuario_Datos"
             android:exported="false" />
         <activity
-            android:name=".MainActreporte"
+            android:name=".Productos_Datos"
             android:exported="false" />
         <activity
-            android:name=".MainActeditar"
+            android:name=".Proveedor_Datos"
             android:exported="false" />
+        <activity
+            android:name=".Categoria_Datos"
+            android:exported="false" />
+        <activity
+            android:name=".MainActsalida"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActentrada"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActcategoria"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".MainActiproducto"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".MainActproveedores"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
         <activity
-            android:name=".MainAct_Clientes"
-            android:exported="false" />
+            android:name=".MainAct_Usuarios"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".MainActivity"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".Login"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
     </application>
 
